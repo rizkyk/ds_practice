@@ -23,7 +23,10 @@ xx <- function(x) {
   #xout <- xout + y  
 }
 
+# returning vector
 bino <-  sapply(c(0:4), xx)
+# or using lapply to return as list then unlist to revert to vector aim to sum values
+#bino <- unlist(lapply(c(0:4), xx))
 bino <- sum( bino)
 print(bino)
 
