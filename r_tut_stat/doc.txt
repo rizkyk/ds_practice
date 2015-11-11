@@ -1,0 +1,3 @@
+## Running file markdown (*.Rmd)
+# library(rmarkdown)
+# rmarkdown::render(".//ESR//Numeric_Measure//example.Rmd")
